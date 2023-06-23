@@ -1,6 +1,7 @@
 #define MAX 20
 
-struct employee{
+struct employee
+{
     int ID;
     float salary;
     char division[25];
@@ -8,4 +9,4 @@ struct employee{
 struct employee employeeData[MAX];
 struct employee *employeeDataPointers[MAX];
 
-void sortData(struct employee *arr[],int n);
+void sortData(struct employee *arr[], int n);

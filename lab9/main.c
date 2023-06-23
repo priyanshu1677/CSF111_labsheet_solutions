@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include"declarations.h"
+#include "declarations.h"
 
-int main(){
+int main()
+{
     int n;
     printf("Enter total no. of students:\n");
-    scanf("%d",&n);
+    scanf("%d", &n);
     askData(n, arr);
     displayData(n, arr);
     return 0;

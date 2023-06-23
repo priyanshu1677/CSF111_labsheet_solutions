@@ -1,20 +1,24 @@
 #include "linkedList.h"
 
-void printNode(NODE n1){
+void printNode(NODE n1)
+{
     printf("%d ", n1->ele);
 }
 
-void printList(LIST l1){
+void printList(LIST l1)
+{
     NODE temp = l1->head;
-    while (temp != NULL) {
+    while (temp != NULL)
+    {
         printNode(temp);
         temp = temp->next;
     }
     printf("\n");
 }
 
-LIST createNewList(){
-	LIST myList;
+LIST createNewList()
+{
+    LIST myList;
     myList = (LIST)malloc(sizeof(struct linked_list));
     // myList = (LIST) malloc(sizeof(*myList));
     myList->count = 0;
@@ -22,8 +26,9 @@ LIST createNewList(){
     return myList;
 }
 
-NODE createNewNode(int value){
-	NODE myNode;
+NODE createNewNode(int value)
+{
+    NODE myNode;
     myNode = (NODE)malloc(sizeof(struct node));
     // myList = (NODE) malloc(sizeof(*myNode));
     myNode->ele = value;
@@ -31,8 +36,9 @@ NODE createNewNode(int value){
     return myNode;
 }
 
-void insertNodeIntoList(NODE n1, LIST l1){
-	// case when list is empty
+void insertNodeIntoList(NODE n1, LIST l1)
+{
+    // case when list is empty
     if (l1->count == 0)
     {
         l1->head = n1;
@@ -48,7 +54,8 @@ void insertNodeIntoList(NODE n1, LIST l1){
     }
 }
 
-void insertNodeAtEnd(NODE n1, LIST l1){
+void insertNodeAtEnd(NODE n1, LIST l1)
+{
     // case when list is empty
     if (l1->count == 0)
     {
@@ -70,9 +77,11 @@ void insertNodeAtEnd(NODE n1, LIST l1){
     }
 }
 
-NODE search(LIST l1, int value){
+NODE search(LIST l1, int value)
+{
     NODE temp = l1->head;
-    while (temp != NULL) {
+    while (temp != NULL)
+    {
         if (temp->ele == value)
             return temp;
         temp = temp->next;
@@ -80,8 +89,9 @@ NODE search(LIST l1, int value){
     return NULL;
 }
 
-void insertAfter(int searchEle, NODE n1, LIST l1){
-     // case when list is empty
+void insertAfter(int searchEle, NODE n1, LIST l1)
+{
+    // case when list is empty
     if (l1->count == 0)
     {
         l1->head = n1;
@@ -127,68 +137,83 @@ void insertAfter(int searchEle, NODE n1, LIST l1){
     return;
 }
 
-void removeFirstNode(LIST l1){
-    if (l1->count == 0) {
+void removeFirstNode(LIST l1)
+{
+    if (l1->count == 0)
+    {
         printf("List is empty. Nothing to remove.\n");
         return;
     }
-    
+
     NODE temp = l1->head;
     l1->head = temp->next;
     free(temp);
     l1->count--;
 }
 
-void removeLastNode(LIST l1){
-    if (l1->count == 0) {
+void removeLastNode(LIST l1)
+{
+    if (l1->count == 0)
+    {
         printf("List is empty. Nothing to remove.\n");
         return;
     }
-    
+
     NODE temp = l1->head;
     NODE prev = NULL;
-    while (temp->next != NULL) {
+    while (temp->next != NULL)
+    {
         prev = temp;
         temp = temp->next;
     }
-    
-    if (prev == NULL) {
+
+    if (prev == NULL)
+    {
         l1->head = NULL;
-    } else {
+    }
+    else
+    {
         prev->next = NULL;
     }
-    
+
     free(temp);
     l1->count--;
 }
 
-void removeElem(int value, LIST l1){
-    if (l1->count == 0) {
+void removeElem(int value, LIST l1)
+{
+    if (l1->count == 0)
+    {
         printf("List is empty. Nothing to remove.\n");
         return;
     }
-    
+
     NODE temp = l1->head;
     NODE prev = NULL;
-    
+
     // Traverse the list to find the node to be removed
-    while (temp != NULL && temp->ele != value) {
+    while (temp != NULL && temp->ele != value)
+    {
         prev = temp;
         temp = temp->next;
     }
-    
-    if (temp == NULL) {
+
+    if (temp == NULL)
+    {
         printf("Element not found in the list.\n");
         return;
     }
-    
+
     // Adjust the pointers to remove the node
-    if (prev == NULL) {
+    if (prev == NULL)
+    {
         l1->head = temp->next;
-    } else {
+    }
+    else
+    {
         prev->next = temp->next;
     }
-    
+
     free(temp);
     l1->count--;
 }

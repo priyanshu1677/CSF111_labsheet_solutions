@@ -4,14 +4,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-typedef struct node * NODE;
-struct node{
+typedef struct node *NODE;
+struct node
+{
 	int ele;
 	NODE next;
 };
 
-typedef struct linked_list * LIST;
-struct linked_list{
+typedef struct linked_list *LIST;
+struct linked_list
+{
 	int count;
 	NODE head;
 };
@@ -27,7 +29,5 @@ void insertAfter(int ele, NODE n1, LIST l1);
 void removeFirstNode(LIST l1);
 void removeLastNode(LIST l1);
 void removeElem(int value, LIST l1);
-
-
 
 #endif

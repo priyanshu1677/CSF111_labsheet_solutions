@@ -1,0 +1,13 @@
+Q: Write a C program to generate a palindromic number pattern.
+ The program should ask the user to enter a number and then 
+ display a pattern where each row consists of numbers that form a palindrome.
+
+For example, if the user enters 5, the output should be:
+
+    1
+   212
+  32123
+ 4321234
+543212345
+
+Write a C program to achieve this palindromic pattern based on user input.

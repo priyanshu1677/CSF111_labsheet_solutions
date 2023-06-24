@@ -1,0 +1,25 @@
+Q: Write a C program to display a spiral pattern of a given matrix.
+ The program should ask the user to enter the elements of a matrix of size MxN, 
+ where M represents the number of rows and N represents the number of columns. 
+ It should then print the matrix elements in a spiral pattern, starting from the
+ top-left corner and moving inwards towards the center of the matrix. 
+ 
+ Write a C program to achieve this spiral pattern based on user input of matrix elements and size.
+ 
+ For example, if the user enters the marks for each student, 
+ and if the matrix size is 5*6,
+ the output could be:
+
+Enter the marks for each student:
+ //scan
+89 75 92 80 95 88
+78 82 79 85 91 86
+92 87 80 76 88 90
+81 85 89 92 84 78
+77 83 86 89 92 85
+ 
+ //output
+89 75 92 80 95 88 86 90 78 84 92 89 86 83 77 81 92 87 80 76 88 90 78 84 92 89 86 83 77 81 85 89 92 84 78 90 88 95 80 76 88 90 78 84 92 89 86 83 77 81 85 89 92 84 78 90 88 95
+
+
+Please note that you need to replace ROWS and COLS with the desired values for the matrix size in the #define statements.

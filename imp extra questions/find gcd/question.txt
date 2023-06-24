@@ -1,0 +1,3 @@
+Q: Write a C program to find the Greatest Common Divisor (GCD) of two numbers.
+ The program should ask the user to enter two numbers and then calculate 
+ and display their GCD.

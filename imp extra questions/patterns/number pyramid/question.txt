@@ -1,0 +1,14 @@
+Q: Write a C program to generate a number pyramid pattern.
+ The program should ask the user to enter a number
+ and then display a pyramid pattern where each row consists of the number repeated 
+ according to its row number. 
+ 
+For example, if the user enters 5, the output should be:
+
+    1
+   2 2
+  3 3 3
+ 4 4 4 4
+5 5 5 5 5
+
+Write a C program to achieve this pattern based on user input.

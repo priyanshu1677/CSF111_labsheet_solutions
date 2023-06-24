@@ -1,0 +1,8 @@
+Q: Write a C program to toggle a bit in a given number at a specified position.
+ The program should ask the user to enter the bit value (0 or 1), the number,
+ and the position at which the bit needs to be toggled. The program should then 
+ toggle the bit at the specified position in the given number and print the updated number.
+
+ Write a C program to achieve this bit toggling based on user input.
+
+Please note that the code assumes that the positions of bits range from 0 to 7 (8-bit number).

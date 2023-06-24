@@ -9,3 +9,4 @@ gcc -o exe2 student2.o checkAnswers.o
 gcc -o exe3 student3.o checkAnswers.o
 
 rm *.o
+rm *.exe

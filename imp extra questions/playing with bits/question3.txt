@@ -1,0 +1,6 @@
+Question: 
+Write a C program that counts the number of set bits (1s) in a given number. 
+The program should prompt the user to enter a number and then calculate the number
+of set bits by iterating through each bit position and checking if it is set.
+
+Finally, it should display the count of set bits.

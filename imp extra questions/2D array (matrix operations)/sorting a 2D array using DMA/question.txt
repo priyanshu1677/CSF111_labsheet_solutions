@@ -1,0 +1,8 @@
+Question: 
+
+Write a C program that receives a 2D array and sorts the elements by accessing 
+the 2D array as a 1D array using dynamic memory allocation (DMA). 
+
+The program should prompt the user to enter the number of rows and columns for 
+the array, allocate memory for the array using DMA, accept the elements of the array, 
+sort the array in ascending order, and display the sorted array. 

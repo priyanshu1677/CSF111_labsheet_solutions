@@ -1,0 +1,8 @@
+Question: 
+
+Write a C program that computes the transpose of a given 2D array 
+using dynamic memory allocation (DMA). 
+
+The program should prompt the user to enter the number of rows and columns for the matrix,
+allocate memory for the matrix using DMA, accept the elements of the matrix,
+compute the transpose, and display both the original matrix and its transpose.

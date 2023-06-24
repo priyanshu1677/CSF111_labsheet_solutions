@@ -1,0 +1,10 @@
+Question: 
+
+Write a C program that performs matrix addition and multiplication 
+using double pointers and dynamic memory allocation (DMA). 
+
+The program should prompt the user to enter the number of rows and columns 
+for two matrices, allocate memory for the matrices using DMA, 
+accept the elements of the matrices, perform addition and multiplication operations,
+and display the results. Additionally, the program should check for 
+compatibility of dimensions before performing the operations.

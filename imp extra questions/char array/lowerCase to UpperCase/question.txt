@@ -7,5 +7,3 @@ from the user and converts it to uppercase using the ctype.h library.
  
  Finally, it should display the uppercase version of the name. 
  
- How would you modify the provided code to achieve this functionality, 
- and which library would you use to convert the characters to uppercase?

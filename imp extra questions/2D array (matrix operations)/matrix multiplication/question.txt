@@ -1,0 +1,8 @@
+Question: 
+Write a C program that performs matrix multiplication. 
+The program should prompt the user to enter the values for two matrices, 
+M1 and M2, and then compute their multiplication, storing the result in matrix M3. 
+The dimensions of the matrices are predefined, and the program will 
+check if the multiplication is possible based on the dimensions. 
+
+How would you modify the provided code to achieve this functionality?

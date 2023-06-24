@@ -1,0 +1,4 @@
+Question: Write a C program that replaces all occurrences of the letter 'e' with 
+the letter 'i' in a given string. 
+
+How would you modify the provided code to achieve this replacement?

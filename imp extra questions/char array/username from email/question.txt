@@ -1,0 +1,3 @@
+Question: Write a C program that extracts the username from an email address. 
+The program should prompt the user to enter an email address and then extract the username 
+portion before the '@' symbol. How would you modify the provided code to achieve this functionality?

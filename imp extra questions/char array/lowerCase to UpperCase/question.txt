@@ -1,0 +1,11 @@
+Question: Write a C program that reads a name character by character 
+from the user and converts it to uppercase using the ctype.h library.
+ 
+ The program should prompt the user to enter a name, read each character, 
+ store it in an array, and then convert the characters to uppercase 
+ using the toupper() function. 
+ 
+ Finally, it should display the uppercase version of the name. 
+ 
+ How would you modify the provided code to achieve this functionality, 
+ and which library would you use to convert the characters to uppercase?

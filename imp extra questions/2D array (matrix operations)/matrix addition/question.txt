@@ -1,0 +1,8 @@
+Question: 
+
+Write a C program that performs matrix addition. 
+The program should prompt the user to enter the dimensions (rows and columns) 
+for two matrices, M1 and M2. Then, it should allow the user to input the values
+for each matrix. After that, it should compute the addition of the matrices 
+and display the resulting matrix, M3. How would you modify the provided code 
+to achieve this functionality?
